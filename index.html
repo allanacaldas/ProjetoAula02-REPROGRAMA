@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <title>O maior carnaval de rua em linha reta da América Latina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/qar6pqn.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://kit.fontawesome.com/3d084ec093.js" crossorigin="anonymous"></script>
+  </head>
+
+<body>
+  <header>
+    <!-- NAV BAR -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary ">
+      <a class="navbar-brand fonte-texto-navbar text-white " href="#">O maior carnaval em linha reta da
+        América Latina</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fonte-texto-navbar text-white" href="#">Shows e programação</a>
+          </li>
+          <li class="nav-item dropdown fonte-texto-navbar">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Roteiros da folia</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Recife</a></li>
+              <li><a class="dropdown-item" href="#">Olinda</a></li>
+              <li><a class="dropdown-item" href="#">Bezerros</a></li>
+              <li><a class="dropdown-item" href="#">Garanhuns</a></li>
+              <li><a class="dropdown-item" href="#">Nazaré da Mata</a></li>
+              <li><a class="dropdown-item" href="#">Goiana</a></li>
+              <li><a class="dropdown-item" href="#">Litoral Norte e Sul</a></li>
+              <li><a class="dropdown-item" href="#">e muito mais...</a></li>
+
+          </li>
+        </ul>
+        <li class="nav-item">
+          <a class="nav-link fonte-texto-navbar text-white" href="#" data-toggle="modal"
+            data-target="#modalContato">Contato</a>
+        </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- CARROSSEL -->
+  <main>
+    <section>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <figure class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 imagem-carrossel" src="./src/assets/RECIFE-CARROSSEL.jpg" alt="Primeiro Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class=" font-weight-bold fonte-legenda-fotos"> Recife </h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 imagem-carrossel" src="./src/assets/OLINDA-CARROSSEL.jpg" alt="Segundo Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="font-weight-bold fonte-legenda-fotos"> Olinda</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 imagem-carrossel" src="./src/assets/PAPANGUS-CARROSSEL.jpg" alt="Terceiro Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="font-weight-bold fonte-legenda-fotos ">Bezerros</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 imagem-carrossel" src="./src/assets/Praia-do-sossego-ilha-de-itamaraca.png"
+              alt="Terceiro Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="font-weight-bold fonte-legenda-fotos">Litoral Norte - Ilha de Itamaracá</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 imagem-carrossel" src="./src/assets/PORTO DE GALINHAS - CARROSSEL.jpg"
+              alt="Terceiro Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="font-weight-bold fonte-legenda-fotos">Litoral Sul - Porto de Galinhas</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 imagem-carrossel" src="./src/assets/MARACATU RURAL - CARROSEL.jpg"
+              alt="Terceiro Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="font-weight-bold fonte-legenda-fotos ">Nazaré da Mata</h5>
+            </div>
+          </div>
+        </figure>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </section>
+    <article>
+      <h1 class="text-center fonte-texto-artigo pt-5 pb-2"> Vem pro calor do mais democrático carnaval de rua do país!
+      </h1>
+      <p class="text-center fonte-texto-artigo-subtitle1 pb-5"> Pernambuco tem uma infinidade de opções pra
+        quem quer aproveitar um carnaval inesquecível, seja você um folião de carteirinha ou alguém que só quer sombra e
+        água de côco!
+      </p>
+
+    </article>
+    <section>
+      <!-- CARD -->
+      <div class="container-fluid containercor">
+        <div class="row justify-content-around">
+          <div class="card text-justify borda-card m-3" style="width: 18rem;">
+            <img class="card-img-top imagem-card" src="./src/assets/galodamadrugada.card.jpg"
+              alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Galo da Madrugada - Recife</h5>
+              <p class="card-text text-secundary"> Não há nada que consiga traduzir a
+                experiência de conhecer o maior
+                bloco do mundo. O Galo da Madrugada abre o carnaval de Pernambuco logo no sábado de Zé Pereira e é
+                parada obrigatória pra
+                quem quer conhecer o melhor do carnaval raiz de PE!</p>
+              <a href="#" class="btn btn-primary ">Saiba mais</a>
+            </div>
+          </div>
+          <div class="card text-justify borda-card m-3" style="width: 18rem;">
+            <img class="card-img-top imagem-card borda-card" src="./src/assets/homem da meia noite card.jpg"
+              alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Homem da meia noite - Olinda</h5>
+              <p class="card-text ">Um dos mais icônicos blocos do carnaval de Olinda, o Homem da noite surgiu na década
+                de 30 e desde então sacode o imaginário do povo Olindense. Em 2020, a agremiação vai desfilar pelas ruas
+                acompanhado do som da banda Cordel do Fogo do Encantado!</p>
+              <a href="#" class="btn btn-primary ">Saiba mais</a>
+            </div>
+          </div>
+          <div class="card text-justify borda-card m-3" style="width: 18rem;">
+            <img class="card-img-top imagem-card borda-card" src="./src/assets/euachoepouco.jpg"
+              alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Eu acho é pouco - Ladeiras de Olinda</h5>
+              <p class="card-text ">Fundado em 1976, o "Eu acho é pouco" sai duas vezes no Carnaval de Olinda: no sábado
+                de Zé Pereira e na Terça-feira. A agremiação surgiu por um grupo de amigos que se juntaram para
+                curtir a folia e criticar a ditadura militar em vigor no Brasil.</p>
+              <a href="https://reprograma.com.br/" class="btn btn-primary ">Saiba
+                mais</a>
+            </div>
+          </div>
+          <div class="card text-justify borda-card m-3" style="width: 18rem;">
+            <img class="card-img-top imagem-card borda-card" src="./src/assets/bloco manguebeat.jpg"
+              alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Bloco MangueBeat - Ladeiras de Olinda</h5>
+              <p class="card-text "> Abrindo o sábado de Zé Pereira em Olinda, provavelmente você vai encontrar uma
+                galera toda coberta de Lama. O bloco foi criado em meados de 1996, quando foi lançado o
+                álbum Afrociberdelia de Chico Science e Nação Zumbi, e é parada obrigatória para quem é admirador do
+                MangueBeat </p>
+              <a href="#" class="btn btn-primary ">Saiba mais</a>
+            </div>
+          </div>
+          <div class="row justify-content-around">
+            <div class="card text-justify borda-card m-3" style="width: 18rem;">
+              <img class="card-img-top imagem-card" src="./src/assets/bloco da saudade.jpg"
+                alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Bloco da Saudade - Recife e Olinda</h5>
+                <p class="card-text ">Um dos mais famosos e tradicionais bloco líricos de rua, o Bloco da Saudade foi
+                  criado em 1973 - a partir de uma canção do célebre compositor de frevos Pernambucanos - e desfilou em
+                  1974 no bairro do Cordeiro com a proposta de reviver os carnavais líricos da primeira metade do século
+                  passado.
+                </p>
+                <a href="#" class="btn btn-primary ">Saiba mais</a>
+              </div>
+            </div>
+            <div class="card text-justify borda-card m-3" style="width: 18rem;">
+              <img class="card-img-top imagem-card borda-card" src="./src/assets/noite dos tambores silenciosos.jpg"
+                alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Noite dos Tambores Silenciosos</h5>
+                <p class="card-text "> A Noite dos Tambores Silenciosos é uma cerimônia de sincretismo religioso que
+                  acontece no Pátio do Terço, área central do Recife. Os grupos de baque virado saem em cortejo, a
+                  partir
+                  das 18h, pelo Pátio do Terço para reverenciar os ancestrais africanos que sofreram e foram mortos
+                  durante a escravidão no Brasil colonial. </p>
+                <a href="#" class="btn btn-primary ">Saiba mais</a>
+              </div>
+            </div>
+            <div class="card text-justify borda-card m-3" style="width: 18rem;">
+              <img class="card-img-top imagem-card borda-card" src="./src/assets/recbeat.jpg"
+                alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">RecBeat - Recife</h5>
+                <p class="card-text "> Ideal pra quem quer curtir um som alternativo, mas ainda
+                  assim
+                  antenado ao carnaval multicultural da capital do Estado. Sua programação atrai visitantes todos os
+                  lugares do país, e ajuda a música local a circular fora do Brasil – o evento passou a integrar a
+                  Associação Ibero-Americana de Festivais, que reúne eventos em toda a América Latina.</p>
+                <a href="#" class="btn btn-primary ">Saiba mais</a>
+              </div>
+            </div>
+            <div class="card text-justify borda-card m-3" style="width: 18rem;">
+              <img class="card-img-top imagem-card borda-card" src="./src/assets/MARACATU RURAL - CARD.jpg"
+                alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Maracatu Rural - Nazaré da Mata</h5>
+                <p class="card-text "> Nazaré da Mata é marcada pela magia das
+                  apresentações de mais cem grupos de maracatus de baque solto. Desde 2004, através do Maracatu Coração
+                  Nazareno, a festa traz mulheres como "caboclas de lança", coisa que antes não acontecia devido ao
+                  preconceito com a participação feminina nessas posições.</p>
+                <a href="#" class="btn btn-primary ">Saiba mais</a>
+              </div>
+            </div>
+            <div class="card text-justify borda-card m-3" style="width: 18rem;">
+              <img class="card-img-top imagem-card borda-card" src="./src/assets/papangus card.jpg"
+                alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Papangus - Bezerros</h5>
+                <p class="card-text "> Os papangus são um símbolo do Carnaval de Bezerros e representam uma tradição
+                  centenária do carnaval Pernambucano. Familiares dos senhores de engenhos, que saiam mascarados e mal
+                  vestidos para visitar amigos nas festas de entrudo, e comiam angu. As crianças passaram então a chamar
+                  os mascarados de "papa-angu".</p>
+                <a href="#" class="btn btn-primary ">Saiba mais</a>
+              </div>
+            </div>
+            <div class="card text-justify borda-card m-3" style="width: 18rem;">
+              <img class="card-img-top imagem-card borda-card" src="./src/assets/caboclinhos card.jpg"
+                alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Festa dos caboclinhos - Goiana</h5>
+                <p class="card-text ">Os grupos de caboclinho, dança folclórica pernambucana, são especialmente
+                  encontrados brincando o carnaval na cidade de Goiana, na Mata Norte de Pernambuco. A festa é composta
+                  por
+                  desfiles de tribos, com seus estandartes ao vento e a beleza de suas fantasias. </p>
+                <a href="#" class="btn btn-primary ">Saiba mais</a>
+              </div>
+            </div>
+            <div class="card text-justify borda-card m-3" style="width: 18rem;">
+              <img class="card-img-top imagem-card borda-card" src="./src/assets/Jazz - Garanhuns.jpg"
+                alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Festival de Jazz - Garanhuns</h5>
+                <p class="card-text "> Para quem deseja fugir da festejos carnavalescos e do
+                  calor, a sugestão é
+                  conhecer o Festival de Jazz de Garanhus - cidade localizada no Agreste Pernambucano - que acontece
+                  desde 2007 e oferece uma programação 100% gratuita!</p>
+                <a href="#" class="btn btn-primary ">Saiba mais</a>
+              </div>
+            </div>
+            <div class="card text-justify borda-card m-3" style="width: 18rem;">
+              <img class="card-img-top imagem-card borda-card" src="./src/assets/são josé da coroa grande.jpg"
+                alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Litoral - Norte e Sul</h5>
+                <p class="card-text "> Conhecer as praias do Litoral Sul ou do Litoral Norte é
+                  uma boa aposta pra quem não gosta muito da folia, mas ainda quer aproveitar o solzão e a beleza das
+                  praias pernambucanas. No litoral norte, na Ilha de Itamaracá, o turista pode conhecer um pouco mais da
+                  história de Lia de Itamaracá e da ciranda de roda. No Litoral Sul, o turista pode aproveitar as
+                  piscinas naturais e a movimentada noite de Porto de Galinhas</p>
+                <a href="#" class="btn btn-primary  ">Saiba Mais</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title " id="exampleModalLabel"> Entre em Contato</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- FORM -->
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Selecione o tipo de
+                comentário</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Dúvidas</option>
+                <option>Sugestōes</option>
+                <option>Elogios</option>
+                <option>Críticas</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Escreva aqui seu
+                comentário</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="container-fluid pt-5">
+    <div>
+      <p class="text-center fonte-texto-artigo-subtitle1 pb-3"> Do litoral ao interior... Carnaval em Pernambuco é só
+        amor! </p>
+      <p class="text-center footer-fonte">Minhas redes sociais</p>
+    </div>
+    <div class="row justify-content-center" id="footer-redes">
+      <div><i class="m-2 fab fa-facebook-square"></i></div>
+      <div><i class="m-2 fab fa-twitter"></i> </div>
+      <div><i class="m-2 fab fa-instagram"></i></div>
+    </div>
+    <div class="text-center fonte-texto-footer pt-3 ">
+      <small>Copyright ©AllanaCaldas <time datetime="2019">2019</time></small>
+
+    </div>
+  </footer>
+  <!-- s -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
