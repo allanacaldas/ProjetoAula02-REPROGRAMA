@@ -61,4 +61,11 @@ footer{
 }
  #footer-redes {
      font-size: 3em;
- } 
+ }
+
+ @media screen and (max-width: 480px) {
+     a.navbar-brand{
+         font-size: 17px;
+     }
+  
+ }
